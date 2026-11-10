@@ -1,0 +1,13 @@
+{
+  "name": "private-research-desk",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "start": "node src/server.mjs",
+    "collect": "node src/runtime.mjs collect",
+    "send": "node src/runtime.mjs send",
+    "test": "node --test test/*.test.mjs"
+  }
+}
